@@ -1,0 +1,9 @@
+body, table {font-family: Arial
+	font-size: 80%;
+}
+h1 {color: #060457;/* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    background: #f0f0f0; /* Цвет фона */
+	}
+h3 {color: #060457; 
+	}
