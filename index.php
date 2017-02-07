@@ -1,6 +1,6 @@
 <?php
     $name='Максим'; $s_name='Мазур'; $patronymic='Валериевич';
-    $FIO="{$s_name} {$name} {$patronymic}";
+    /*$FIO="{$s_name} {$name} {$patronymic}";*/ /*не обязательно !!!*/
     $year_of_birth=1982;
     /*ЗАГОЛОВКИ*/
     $t_z1='ОСНОВНАЯ СПЕЦИАЛИЗАЦИЯ И НАВЫКИ';
@@ -44,8 +44,8 @@
 	</head>
 	<body>
 		<p> <img src='bb.jpeg' align='right' border='2' alt='фото резюме'></p>
-		<center><h1><?php echo $FIO; ?></h1></center>
-		<center><h4>Год рождения: <?php echo $year_of_birth; ?></h4></center>
+		<center><h1><?php echo "$s_name $name $patronymic"; ?></h1></center>
+		<center><h4><?php echo "Год рождения: $year_of_birth"; ?></h4></center>
 		<h3><?php echo $t_z1; ?></h3>
 		<hr>
 		<dl>
