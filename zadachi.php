@@ -36,18 +36,116 @@ echo '</pre>';                       ?> <br>
 
 
 <?php
-    $age='fgh';
+    $age=0;
 
-    if ($age>=18 && $age<=59){
+    if ($age >= 18 and $age <= 59){
         echo 'Вам еще работать и работать';
     }
-    if ($age>59){
+    elseif ($age>59){
         echo 'Вам пора на пенсию';
     }
-    if ($age >= 0 && $age <= 17) {
-        echo 'Вам еще рано работать';}
+    elseif ($age > 0 and $age <= 17){
+        echo 'Вам еще рано работать';
+    }
+    elseif ($age === 0){
+        echo 'Вам еще рано работать';
+    }
+    elseif ($age < 0 ){
+        echo 'Неизвестный возраст';
+    }
+    else {
+        echo'Неизвестный возраст';
+    }
 
-    if ($age < 0) {
-        echo 'Неизвестный возраст';}
+                                    ?> <br>
+
+<?php
+
+$day=2;
+
+    switch ($day) {
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+            echo 'Это рабочий день';
+    break;
+    }
+                                    ?> <br>
+
+<?php
+
+$day=7;
+
+switch ($day) {
+    case 6:
+    case 7:
+        echo 'Это выходной день';
+    break;
+    }
+                                    ?> <br>
+
+<?php
+
+$day=8;
+
+switch ($day) {
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+        echo 'Это рабочий день';
+        break;
+    case 6:
+    case 7:
+        echo 'Это выходной день';
+        break;
+    default : echo 'Неизвестный день';
+        break;
+}
+
+                                    ?> <br>
+
+<?php
+$s=100000;//м
+echo "Длина участка, который проехал автомобиль : {$s} м"; ?> <br>
+<?php
+$t=1; //час
+echo "Время движения : {$t} час ";?> <br>
+<?php
+$V1=($s/$t)/1000;
+echo "Скорость автомобиля : {$V1} км/ч "; ?> <br>
+<?php
+$V2=(($V1)*1000)/3600;
+echo "Скорость автомобиля : {$V2} м/c ";
+
+                                    ?> <br>
+
+<?php
+$foo='bar';
+$bar=10;
+$foo=$bar;
+echo $foo;
+
+                                     ?> <br>
+<?php
+
+$a = 10;
+$b = 5;
+$operator = '+';
+
+                                    ?> <br>
+<?php
+$a = 1;
+$b = 5;
+
+if ($a > $b) {
+    echo "Max= {$a}";
+  }
+  else {echo "Max= {$b}";
+  }                                 ?> <br>
+
 
 
