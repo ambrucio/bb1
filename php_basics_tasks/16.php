@@ -4,7 +4,7 @@ $a = 1;
 $b = 5;
 
 if ($a > $b) {
-    echo "Max= {$a}";
+    echo "Max a= {$a}";
 }
-else {echo "Max= {$b}";
+else {echo "Max b= {$b}";
     }
