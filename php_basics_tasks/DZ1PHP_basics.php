@@ -3,9 +3,12 @@
     <meta charset="UTF-8">
     <title>Задачи по основам PHP</title>
     <style>
-            p {text-align: center;
+p {text-align: center;
             background: #f0f0f0;
         }
+           p {text-align: center;
+              background: #f0f0f0;
+           }
     </style>
 </head>
 <body>
@@ -37,4 +40,3 @@
 <p><a href='./26.php'>Task 26</a></p>
 <p><a href='./27.php'>Task 27</a></p>
 </body>
-
