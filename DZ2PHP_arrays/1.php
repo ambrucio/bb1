@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mazur
- * Date: 13.02.2017
- * Time: 13:46
- */
+$massiv=[1=>'html', 2=> 'css', 3=> 'php', 4=> 'js', 5=>'jq'];
+
+foreach ($massiv as $value => $key) {
+    echo "$value $key";
+}
