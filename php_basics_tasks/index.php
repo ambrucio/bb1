@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <title>Задачи по основам PHP</title>
     <style>
-        p {text-align: center;
+            p {text-align: center;
             background: #f0f0f0;
         }
     </style>
