@@ -1,8 +1,8 @@
 <?php
 /*Дан массив с элементами 'html', 'css', 'php', 'js', 'jq'. С помощью цикла foreach выведите эти слова в столбик.*/
 
-$massiv=[1=>'html', 2=> 'css', 3=> 'php', 4=> 'js', 5=>'jq'];
+$massiv=['html', 'css', 'php', 'js', 'jq'];
 
-foreach ($massiv as $value => $key) {
-    echo "<a>$value $key</a><br>";
+foreach ($massiv as $value) {
+    echo "<a>$value</a><br>";
 }
