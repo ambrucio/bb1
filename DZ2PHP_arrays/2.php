@@ -3,14 +3,24 @@
 /*Дан массив с элементами 1, 20, 15, 17, 24, 35. С помощью цикла foreach найдите сумму элементов этого массива.
 Запишите ее в переменную $result.*/
 
-//$massiv=["a"=>1, "b"=>20, "c"=>15, "d"=>17, "e"=>24, "f"=>35];
+$massiv=[1, 20, 15, 17, 24, 35];
 
-/*$massiv=[1, 20, 15, 17, 24, 35];
+$result=0;
+    foreach ($massiv as $val) {
 
-foreach ($massiv as $val) {
-        for ($i=1; $i<=6; $i++);
-$val+=$i;
-        echo "<a>$val</a><br>";
-}*/
+        $result += $val;
+    }
 
+    echo $result;
 
+/*Другой вариант
+
+$massiv=[1, 20, 15, 17, 24, 35];
+
+$result=0;
+FOR ($i=0; $i<count($massiv); $i++) {
+
+    $result += $massiv[$i];
+
+}
+echo $result; */

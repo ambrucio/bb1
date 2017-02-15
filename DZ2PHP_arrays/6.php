@@ -5,9 +5,22 @@ $arr = array('green'=>'зеленый', 'red'=>'красный','blue'=>'гол�
 $en = array('green', 'red','blue');
 $ru = array('зеленый', 'красный', 'голубой')*/
 
-/*$arr = array('green'=>'зеленый', 'red'=>'красный','blue'=>'голубой');
+$arr = array('green'=>'зеленый', 'red'=>'красный','blue'=>'голубой');
 
-foreach ($arr as $key => $value) {
+foreach ($arr as $key => $val) {
+    $ru[] = $val;
+    $en[] = $key;
+}
+    echo '<pre>';
+    print_r($ru);
+    echo '</pre>';
 
-}*/
+
+    echo '<pre>';
+    print_r($en);
+    echo '</pre>';
+
+
+
+
 
