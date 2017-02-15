@@ -4,7 +4,7 @@
     <title>Задачи по массивам и циклам</title>
     <style>
             p {text-align: left;
-            background: #f0f0f0;
+            background: #faefa4;
             }
     </style>
 </head>
