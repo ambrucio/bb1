@@ -7,7 +7,8 @@ $ru = array('зеленый', 'красный', 'голубой')*/
 
 $arr = array('green'=>'зеленый', 'red'=>'красный','blue'=>'голубой');
 
-foreach ($arr as $key => $val) {
+foreach ($arr as $key => $val)
+{
     $ru[] = $val;
     $en[] = $key;
 }

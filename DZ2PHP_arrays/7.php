@@ -4,7 +4,8 @@
 
 $massiv=[2, 5, 9, 15, 0, 4];
 
-foreach ($massiv as $val) {
+foreach ($massiv as $val)
+{
     if ($val>3 and $val<10)
 
         echo "<a>$val</a><br>";
