@@ -6,7 +6,8 @@
 $massiv=[1, 20, 15, 17, 24, 35];
 
 $result=0;
-    foreach ($massiv as $val) {
+    foreach ($massiv as $val)
+    {
 
         $result += $val;
     }

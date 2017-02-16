@@ -3,6 +3,7 @@
 
 $massiv=['html', 'css', 'php', 'js', 'jq'];
 
-foreach ($massiv as $value) {
+foreach ($massiv as $value)
+{
     echo "<a>$value</a><br>";
 }

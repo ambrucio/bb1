@@ -5,7 +5,8 @@
 $massiv=[26, 17, 136, 12, 79, 15];
 
 $result = 0;
-    foreach ($massiv as $val) {
+    foreach ($massiv as $val)
+    {
 
         $result += pow ($val, 2);
     }

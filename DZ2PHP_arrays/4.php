@@ -4,6 +4,7 @@
 
 $arr = array('green'=>'зеленый', 'red'=>'красный','blue'=>'голубой');
 
-foreach ($arr as $key => $value) {
+foreach ($arr as $key => $value)
+{
     echo "<a>$key $value</a><br>";
 }
