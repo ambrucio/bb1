@@ -4,22 +4,35 @@
 1, 2, 3
 4, 5, 6
 7, 8, 9
-  */
+*/
 $arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+$i = 1;
 
-$a = '';
-$i = 0;
 foreach ($arr as $elem)
 {
-    if ($i==0)
-    {
-        $a .= $elem.', ';
+    if ($i == 3 or $i == 6 or $i == 9) {
+        echo $elem . ' <br>';
 
     }
+        else
     {
-        $a .= $elem.'<br>';
+        echo $elem . ', ';
     }
-
+    $i++;
 }
-echo $a;
 
+
+/* ИЛИ ТАК
+$arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+$i = 0;
+
+foreach ($arr as $elem)
+{
+    if (++$i % 3 == 0 ) {
+        echo $elem.' <br>';
+    }
+    else
+    {
+        echo $elem.', ';
+    }
+}*/

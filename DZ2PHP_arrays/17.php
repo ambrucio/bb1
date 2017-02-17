@@ -7,14 +7,14 @@ $arr = array('січень', 'лютий', 'березень', 'квітень',
 
 $month = 'лютий';
 
-foreach ($arr as $elem)
+foreach ($arr as $val)
 {
-    if ($elem == $month)
+    if ($val == $month)
     {
-     echo "<b>$elem</b><br>";
+     echo "<b>$val</b><br>";
     }
     else {
-            echo $elem.'<br>';
+            echo $val . '<br>';
          }
 
 }
