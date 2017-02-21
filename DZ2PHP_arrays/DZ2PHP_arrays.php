@@ -78,12 +78,38 @@
     <p><a href='./23.php'>Task 23. Вам нужно разработать программу, которая считала бы сумму цифр числа введенного
             пользователем. Например: есть число 123, то программа должна вычислить сумму цифр 1,
             2, 3, т. е. 6.  </a></p>
-    <p><a href='./24.php'>Task 24.  </a></p>
-    <p><a href='./25.php'>Task 25.  </a></p>
-    <p><a href='./26.php'>Task 26.  </a></p>
-    <p><a href='./27.php'>Task 27.  </a></p>
+    <p><a href='./24.php'>Task 24. Вам нужно разработать программу, которая считала бы количество вхождений
+            какой­нибуть выбранной вами цифры в выбранном вами числе. Например: цифра 5 в числе
+            442158755745 встречается 4 раза.  </a></p>
+    <p><a href='./25.php'>Task 25. Ваше задание создать массив, наполнить это случайными значениями (функция rand),
+            найти максимальное и минимальное значение и поменять их местами </a></p>
+    <p><a href='./26.php'>Task 26. Вам нужно создать массив и заполнить его случайными числами от 1 до 100 (ф­я rand).
+            Далее, вычислить произведение тех элементов, которые больше ноля и у которых парные
+            индексы. После вывести на экран элементы, которые больше ноля и у которых не парный
+            индекс. </a></p>
+    <p><a href='./27.php'>Task 27.Создать генератор случайных таблиц. Есть переменные: $row - кол-во строк в таблице,
+            $cols - кол-во столбцов в таблице. Есть список цветов, в массиве: $colors = array('red','yellow','blue',
+            'gray','maroon','brown','green'). Необходимо создать скрипт, который по заданным условиям выведет таблицу
+            размера $rows на $cols, в которой все ячейки будут иметь цвета, выбранные случайным образом из массива
+            $colors. В каждой ячейке должно находиться случайное число. <br><br>
 
+            Пример результата:<br>
 
+            <table><tr><td style='background-color:blue'>2033</td><td style='background-color:brown'>11696</td>
+                    <td style='background-color:green'>712</td><td style='background-color:yellow'>32583</td>
+                    <td style='background-color:red'>157</td></tr><tr><td style='background-color:gray'>25694</td>
+                    <td style='background-color:red'>19724</td><td style='background-color:brown'>18487</td>
+                    <td style='background-color:brown'>8462</td><td style='background-color:red'>4412</td></tr><tr>
+                    <td style='background-color:gray'>4673</td><td style='background-color:gray'>14450</td>
+                    <td style='background-color:maroon'>16748</td><td style='background-color:gray'>3505</td>
+                    <td style='background-color:maroon'>5299</td></tr><tr><td style='background-color:red'>16873</td>
+                    <td style='background-color:gray'>21370</td><td style='background-color:green'>22482</td>
+                    <td style='background-color:red'>28576</td><td style='background-color:blue'>26060</td></tr><tr>
+                    <td style='background-color:yellow'>28955</td><td style='background-color:gray'>8804</td>
+                    <td style='background-color:gray'>26825</td><td style='background-color:red'>31471</td>
+                    <td style='background-color:blue'>22283</td></tr></table> </a></p>
+
+    <p><a href='./28.php'>Task 28. Вывести таблицу умножения с помощью двух циклов for </a></p>
 
 
 

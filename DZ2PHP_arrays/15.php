@@ -11,3 +11,10 @@ foreach ($arr as $val)
         $count++;
     }
     echo $count;
+
+
+
+/*
+$a = count ($arr);
+echo $a;
+*/

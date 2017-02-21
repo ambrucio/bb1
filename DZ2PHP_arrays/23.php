@@ -1,16 +1,4 @@
-
-<h1>Form</h1>
-<form method='post'>
-    <input type="text" name="username"/>
-    <input type="email" name="email"/>
-    <input type="submit" value="Submit"/>
-</form>
-
-<?php if ($_POST) : ?>
-    <h1>Form data:</h1>
-    <?php var_dump($_POST) ?>
-<?php endif;
-
+<?php
 
 /*
 Вам нужно разработать программу, которая считала бы сумму цифр числа введенного
@@ -19,3 +7,22 @@
 
  */
 
+$a = '123';
+$summa = 0;
+for ($i = 0; $i <= strlen($a); $i++) {
+
+    $summa += $a[$i];
+
+    }
+echo $summa;
+
+/* или так
+
+$a='543';
+$i=0;
+$summa=0;
+while($i<strlen($a)){
+    $summa += $a[$i];
+    $i++;
+}
+echo $summa;*/
