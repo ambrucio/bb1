@@ -17,21 +17,3 @@ for ($a = 1; $a<=10; $a++) {
 
 
 
-/*<table border="1" align="center" cellspacing="0" cellpadding="4">
-    <tr>
-        <td><?="<br>"?></td>
-        <td>sfsf</td>
-        <td>sfsf</td>
-        <td>sfsf</td>
-        <td>sfsf</td>
-    </tr>
-    <tr>
-        <td>sfsf</td>
-        <td>sfsf</td>
-        <td>sfsf</td>
-        <td>sfsf</td>
-        <td>sfsf</td>
-    </tr>
-
-</table>
-*/
