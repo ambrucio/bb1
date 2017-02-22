@@ -5,25 +5,8 @@
 4, 5, 6
 7, 8, 9
 */
-$arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
-$i = 1;
 
-foreach ($arr as $elem)
-{
-    if ($i == 3 or $i == 6 or $i == 9) {
-        echo $elem . ' <br>';
-
-    }
-        else
-    {
-        echo $elem . ', ';
-    }
-    $i++;
-}
-
-
-/* ИЛИ ТАК
-$arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+$arr = range(1, 9);
 $i = 0;
 
 foreach ($arr as $elem)
@@ -35,4 +18,23 @@ foreach ($arr as $elem)
     {
         echo $elem.', ';
     }
+}
+
+
+
+/*
+$arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+$i = 1;
+
+foreach ($arr as $elem)
+{
+    if ($i == 3 or $i == 6 or $i == 9) {
+        echo $elem . ' <br>';
+
+    }
+    else
+    {
+        echo $elem . ', ';
+    }
+    $i++;
 }*/

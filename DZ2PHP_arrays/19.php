@@ -15,3 +15,5 @@ foreach ($arr as $key => $val) {
         echo $val . '<br>';
     }
 }
+
+/* date ('D'); */
