@@ -11,26 +11,33 @@
     <h3>Make gradients from left to right on each row</h3>
     <?php
 
-       // $rows = rand(1, 10);
-       // $cols = rand(1, 10);
-    //$max_color_value = pow(16, 6);
 
     $rows = 10;
     $cols = 10;
-    $colors = array('red','yellow','blue','gray','maroon','brown','green')
+
+    $color_value = range (16756000, 16766000, 100);
+
+
+var_dump($color_value);
+
+
     ?>
 
-<table border="1">
-    <?php for ($i = 1; $i <= $rows; $i++): ?>
-        <tr>
-            <?php for ($j = 1; $j <= $cols; $j++):
+<table border="1" cellpadding="2" cellspacing="0">
 
-                $color = dechex(rand(0, $max_color_value));
-                ?>
-                <td style="background-color: #<?=$color?>"><?=$color ?></td>
-            <?php endfor; ?>
-        </tr>
+    <?php for ($i = 1; $i <= $rows; $i++): ?>
+            <tr>
+                 <?php for ($j = 1; $j <= $cols; $j++):
+
+                     $color = dechex($color_value[$i*$j]);
+                    ?>
+                    <td style="background-color: #<?=$color?>"><?=$color ?></td>
+
+
+                 <?php endfor; ?>
+             </tr>
     <?php endfor; ?>
+
 </table>
 
 
