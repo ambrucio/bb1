@@ -5,7 +5,7 @@
 
 $arr = array('Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Нд');
 
-$day = 5;
+$day =  date ('7');;
 
 foreach ($arr as $key => $val) {
     if ($key == $day - 1)
@@ -16,4 +16,3 @@ foreach ($arr as $key => $val) {
     }
 }
 
-/* date ('D'); */
