@@ -9,7 +9,7 @@
 
 $a = $_POST ['words_a'];
 $b = $_POST ['words_b'];
-$arr = [];
+
 function getCommonWords($a, $b)
 {
 
@@ -47,7 +47,7 @@ var_dump(getCommonWords($a, $b));*/
 <body>
 
 <form method="post">
-    <textarea rows="10" cols="45" name="words_a" placeholder="Ваше сообщение 1" ><?=getCommonWords('a')?></textarea>
+    <textarea rows="10" cols="45" name="words_a" placeholder="Ваше сообщение 1" ></textarea>
     <textarea rows="10" cols="45" name="words_b" placeholder="Ваше сообщение 2"></textarea>
     <div><button>Отправить</button></div>
     <div><h3><?=implode (', ',getCommonWords($a, $b));?></h3></div>

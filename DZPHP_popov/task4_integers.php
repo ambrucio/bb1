@@ -3,10 +3,12 @@ error_reporting(E_ALL);
 function requestPost($key, $default = null)
 {
     return isset($_POST[$key]) ? $_POST[$key] : $default;
+
 }
 function isRequestPost()
 {
     return (bool) $_POST;
+
 }
 function debug($x)
 {

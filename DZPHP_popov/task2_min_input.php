@@ -23,7 +23,7 @@ if ($_POST) {
     $isFormSent = true;
     $prime_numbers = [2, 3];
 
-    // todo: make function isValid()
+    //todo: make function isValid()
     if (!is_numeric($_POST['max_number'])) {
         die('max number is not a number');
     }
