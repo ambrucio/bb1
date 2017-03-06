@@ -5,21 +5,17 @@
  общими словами.
  */
 
-$a = false;
-$b = false;
-
 if ($_POST)
 {
     $a = $_POST['words_a'];
     $b = $_POST['words_b'];
 }
 
-function getCommonWords($a, $b)
+function getCommonWords(&$a, &$b)
 {
     $a = explode(' ', $a);
     $b = explode(' ', $b);
-    $arr [] = null;
-
+    $arr = [];
     for ($i = 0; $i < count($a); $i++) {
         for ($j = 0; $j < count($b); $j++) {
 
