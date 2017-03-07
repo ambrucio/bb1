@@ -23,7 +23,7 @@ function TOP3Words(&$a)
     return $arr;
 }
 
-include '2.html';
+require '2.html';
 
 
 

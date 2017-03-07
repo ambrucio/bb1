@@ -28,7 +28,7 @@ function getCommonWords(&$a, &$b)
     return $arr;
 }
 
-include '1.html';
+require '1.html';
 
 ?>
 
