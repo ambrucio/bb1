@@ -26,20 +26,29 @@ function isFormValid()
 {
     return trim(requestPost('username')) != '' && trim(requestPost('email')) != '' && trim(requestPost('message')) != '';
 }
+
+function cookieSet($key, $value, $expire = 86400)
+{
+    setcookie ($key, $value, time() + $expire);
+}
+
+var_dump($_COOKIE);
+
 // logic
 $flashMessage = requestGet('flash');
 if (isRequestPost()) {
     if (isFormValid()) {
         $flashMessage = 'Your message was sent';
-        // $message = createMessage(requestPost('username'), requestPost('email'), requestPost('message'));
+        //$message = createMessage(requestPost('username'), requestPost('email'), requestPost('message'));
 
         // something todo with $message
 
-        redirect("/form?flash={$flashMessage}");
+        redirect("/DZPHP_popov/form_function_valid.php?flash={$flashMessage}");
     }
 
     $flashMessage = 'Fill the fields';
 }
+
 ?>
 
 <!doctype html>
@@ -55,9 +64,9 @@ if (isRequestPost()) {
 <b><?=$flashMessage ?></b>
 
 <form method="post">
-    <input type="name" name="username" value="<?=requestPost('username') ?>"><br>
-    <input type="email" name="email" value="<?=requestPost('email') ?>"><br>
-    <textarea name="message"><?=requestPost('message') ?></textarea><br>
+    Name: <input type="name" name="username" value="<?=requestPost('username') ?>"><br><br>
+    Email: <input type="email" name="email" value="<?=requestPost('email') ?>"><br><br>
+    Your message: <textarea name="message"><?=requestPost('message') ?></textarea><br><br>
     <button>GO</button>
 </form>
 
